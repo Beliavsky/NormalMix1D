@@ -1,5 +1,5 @@
 # NormalMix1D
-Fit univariate mixtures of normals to simulated data using the EM algorithm
+Fit univariate mixtures of normals to simulated data using the EM algorithm, "from scratch".
 
 Output of `python xfit_mix.py`:
 
