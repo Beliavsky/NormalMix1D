@@ -1,2 +1,29 @@
 # NormalMix1D
-Fit univariate mixtures of normals to data using the EM algorithm
+Fit univariate mixtures of normals to simulated data using the EM algorithm
+
+Output of `python xfit_mix.py`:
+
+```
+#obs: 10000 
+#iter_em: 30
+
+              p1      p2      m1      m2     sd1     sd2
+Guessed:   0.5000  0.5000  0.0000  0.0000  1.0000  3.0000
+   True:   0.3000  0.7000  0.0000  5.0000  1.0000  1.5000
+ Fitted:   0.3015  0.6985  0.0038  4.9650  0.9941  1.5060
+   Diff:   0.0015 -0.0015  0.0038 -0.0350 -0.0059  0.0060
+
+              p1      p2      m1      m2     sd1     sd2
+Guessed:   0.5000  0.5000  0.0000  0.0000  1.0000  3.0000
+   True:   0.3000  0.7000  0.0000  5.0000  1.0000  1.5000
+ Fitted:   0.3049  0.6951  0.0309  4.9970  0.9739  1.5032
+   Diff:   0.0049 -0.0049  0.0309 -0.0030 -0.0261  0.0032
+
+              p1      p2      m1      m2     sd1     sd2
+Guessed:   0.5000  0.5000  0.0000  0.0000  1.0000  3.0000
+   True:   0.3000  0.7000  0.0000  5.0000  1.0000  1.5000
+ Fitted:   0.2991  0.7009 -0.0105  4.9854  0.9925  1.5317
+   Diff:  -0.0009  0.0009 -0.0105 -0.0146 -0.0075  0.0317
+
+time elapsed (s):  0.062
+```
